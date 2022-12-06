@@ -1,5 +1,5 @@
 # Task Description
-Implement the route that is responsible for showing the user's bookmarks by sending a request to API with the JWT token that contains the user's data (id, name) and then the response of that request will be the list of books that the user bookmarked in a JSON file that contains every book id and name.
+Implement the route that is responsible for showing the user's bookmarks by sending a request to API with the JWT token that contains the user's data (id, name) and then the response of that request will be the list of books that the user bookmarked grouped in JSON file that contains every book id and name.
 
 ## Database Schema 
 Database Schema file: [schema.mwb](schema.mwb).
