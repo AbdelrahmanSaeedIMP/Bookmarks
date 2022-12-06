@@ -19,5 +19,6 @@ jwtSecret=sic-mundus-creatus-est
 ```
 ### Run
 ```
+cd functions/
 firebase serve
 ```
