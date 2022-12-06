@@ -7,15 +7,16 @@ const {
     mysqlHost,
     mysqlUser,
     mysqlPass,
-    mysqldbgit 
+    mysqlDB,
+    mysqlPort
 } = process.env;
 
 const pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    database: 'taskimp',
-    password: 'mysql@password',
-    port: '3306'
+    host: mysqlHost,
+    user: mysqlUser,
+    database: mysqlDB,
+    password: mysqlPass,
+    port: mysqlPort
   });
 
 exports.pool = pool;
