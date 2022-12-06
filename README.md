@@ -22,3 +22,5 @@ jwtSecret=sic-mundus-creatus-est
 cd functions/
 firebase serve
 ```
+### Postman
+![Run Picture](./TestRoutePostman.png)
